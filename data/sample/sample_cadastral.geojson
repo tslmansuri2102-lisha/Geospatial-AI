@@ -1,0 +1,120 @@
+{
+    "type": "FeatureCollection",
+    "name": "sample_cadastral",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "EPSG:4326"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "parcel_id": "P001",
+                "owner_name": "Rahul Patel",
+                "land_use": "Residential",
+                "area_sq_m": 120.0
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            72.6000,
+                            22.7000
+                        ],
+                        [
+                            72.6010,
+                            22.7000
+                        ],
+                        [
+                            72.6010,
+                            22.7010
+                        ],
+                        [
+                            72.6000,
+                            22.7010
+                        ],
+                        [
+                            72.6000,
+                            22.7000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "parcel_id": "P002",
+                "owner_name": "Neha Shah",
+                "land_use": "Commercial",
+                "area_sq_m": 250.0
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            72.6010,
+                            22.7000
+                        ],
+                        [
+                            72.6020,
+                            22.7000
+                        ],
+                        [
+                            72.6020,
+                            22.7010
+                        ],
+                        [
+                            72.6010,
+                            22.7010
+                        ],
+                        [
+                            72.6010,
+                            22.7000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "parcel_id": "P003",
+                "owner_name": "Amit Desai",
+                "land_use": "Residential",
+                "area_sq_m": 180.0
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            72.6020,
+                            22.7000
+                        ],
+                        [
+                            72.6030,
+                            22.7000
+                        ],
+                        [
+                            72.6030,
+                            22.7010
+                        ],
+                        [
+                            72.6020,
+                            22.7010
+                        ],
+                        [
+                            72.6020,
+                            22.7000
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
