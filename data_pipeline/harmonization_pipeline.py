@@ -2,6 +2,7 @@ from ingestion import load_dataset
 from crs_harmonization import harmonize_crs
 from geometry_cleaning import repair_geometries
 from attribute_mapping import harmonize_attributes
+from output_writer import save_standardized_dataset
 
 
 def process_dataset(file_path, target_crs=None):
@@ -78,6 +79,11 @@ if __name__ == "__main__":
     print("\nFinal cadastral columns:")
     print(list(cadastral_data.columns))
 
+    save_standardized_dataset(
+        cadastral_data,
+        "data/standardized/standardized_cadastral.geojson"
+    )
+
     print("\n========== MUNICIPAL DATA ==========")
 
     municipal_data = process_dataset(
@@ -86,3 +92,8 @@ if __name__ == "__main__":
 
     print("\nFinal municipal columns:")
     print(list(municipal_data.columns))
+
+    save_standardized_dataset(
+        municipal_data,
+        "data/standardized/standardized_municipal.csv"
+    )
