@@ -2,6 +2,8 @@ from ingestion import load_dataset
 from crs_harmonization import harmonize_crs
 from geometry_cleaning import repair_geometries
 from attribute_mapping import harmonize_attributes
+from normalization import normalize_attributes
+from data_quality import generate_quality_report, print_quality_report
 from output_writer import save_standardized_dataset
 
 
@@ -10,10 +12,11 @@ def process_dataset(file_path, target_crs=None):
     Load and harmonize a dataset.
 
     Vector data:
-        Ingestion → CRS harmonization → Geometry cleaning → Attribute mapping
+        Ingestion → CRS harmonization → Geometry cleaning
+        → Attribute mapping → Attribute normalization
 
     Tabular data:
-        Ingestion → Attribute mapping
+        Ingestion → Attribute mapping → Attribute normalization
     """
 
     # Step 1: Load dataset
@@ -48,6 +51,14 @@ def process_dataset(file_path, target_crs=None):
         print("Attribute mapping:")
         print(mapping)
 
+        # Step 5: Attribute normalization
+        data = normalize_attributes(data)
+
+        print("Attribute normalization completed.")
+
+        quality_report = generate_quality_report(data)
+        print_quality_report(quality_report)
+
     # ---------------------------------------------------------
     # TABULAR DATA
     # ---------------------------------------------------------
@@ -58,6 +69,14 @@ def process_dataset(file_path, target_crs=None):
 
         print("Attribute mapping:")
         print(mapping)
+
+        # Step 3: Attribute normalization
+        data = normalize_attributes(data)
+
+        print("Attribute normalization completed.")
+
+        quality_report = generate_quality_report(data)
+        print_quality_report(quality_report)
 
     else:
         raise ValueError(

@@ -1,4 +1,4 @@
 parcel_id,owner_name,land_use,area_sq_m
-M001,Aarav Shah,Residential,150
-M002,Diya Patel,Commercial,300
-M003,Riya Mehta,Residential,200
+M001,Aarav Shah,Residential,150.0
+M002,Diya Patel,Commercial,300.0
+M003,Riya Mehta,Residential,200.0
