@@ -92,13 +92,17 @@ def generate_quality_report(data):
     # Check required attributes
     if "ward_id" in data.columns and "ward_name" in data.columns:
         required_columns = ["ward_id", "ward_name"]
+
+    elif "road_id" in data.columns and "road_type" in data.columns:
+        required_columns = ["road_id", "road_type", "road_name"]
+
     else:
         required_columns = [
-            "parcel_id",
-            "owner_name",
-            "land_use",
-            "area_sq_m"
-        ]
+        "parcel_id",
+        "owner_name",
+        "land_use",
+        "area_sq_m"
+    ]
 
     report["required_columns"] = check_required_columns(
         data,
