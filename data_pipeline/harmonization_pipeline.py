@@ -4,6 +4,7 @@ from geometry_cleaning import repair_geometries
 from attribute_mapping import harmonize_attributes
 from normalization import normalize_attributes
 from data_quality import generate_quality_report, print_quality_report
+from municipal_normalization import normalize_ward_data
 from output_writer import save_standardized_dataset
 
 
@@ -55,6 +56,10 @@ def process_dataset(file_path, target_crs=None):
         data = normalize_attributes(data)
 
         print("Attribute normalization completed.")
+
+        if "Name" in data.columns:
+            data = normalize_ward_data(data)
+        print("Municipal ward normalization completed.")
 
         quality_report = generate_quality_report(data)
         print_quality_report(quality_report)

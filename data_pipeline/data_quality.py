@@ -29,16 +29,14 @@ def check_duplicate_parcel_ids(df):
     }
 
 
-def check_required_columns(df):
-    """
-    Check whether all required standardized columns are present.
-    """
-    required_columns = [
-        "parcel_id",
-        "owner_name",
-        "land_use",
-        "area_sq_m"
-    ]
+def check_required_columns(df, required_columns=None):
+    if required_columns is None:
+        required_columns = [
+            "parcel_id",
+            "owner_name",
+            "land_use",
+            "area_sq_m"
+        ]
 
     missing_columns = [
         column for column in required_columns
@@ -50,8 +48,6 @@ def check_required_columns(df):
         "missing_columns": missing_columns,
         "all_present": len(missing_columns) == 0
     }
-
-
 def check_geometry_quality(gdf):
     """
     Check invalid and empty geometries.
@@ -94,7 +90,20 @@ def generate_quality_report(data):
     report = {}
 
     # Check required attributes
-    report["required_columns"] = check_required_columns(data)
+    if "ward_id" in data.columns and "ward_name" in data.columns:
+        required_columns = ["ward_id", "ward_name"]
+    else:
+        required_columns = [
+            "parcel_id",
+            "owner_name",
+            "land_use",
+            "area_sq_m"
+        ]
+
+    report["required_columns"] = check_required_columns(
+        data,
+        required_columns
+    )
 
     # Check missing values
     report["missing_values"] = check_missing_values(data)
@@ -108,7 +117,6 @@ def generate_quality_report(data):
         report["crs"] = check_crs(data)
 
     return report
-
 
 def print_quality_report(report):
     """
