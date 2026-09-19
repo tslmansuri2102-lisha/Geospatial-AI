@@ -11,21 +11,20 @@ def check_missing_values(df):
     return missing[missing > 0].to_dict()
 
 
-def check_duplicate_parcel_ids(df):
-    """
-    Check for duplicate parcel IDs.
-    """
-    if "parcel_id" not in df.columns:
+def check_duplicate_ids(df, id_column):
+    if id_column not in df.columns:
         return {
+            "id_column": id_column,
             "checked": False,
-            "reason": "parcel_id column not found"
+            "duplicate_count": None
         }
 
-    duplicates = df["parcel_id"].duplicated().sum()
+    duplicate_count = df[id_column].duplicated().sum()
 
     return {
+        "id_column": id_column,
         "checked": True,
-        "duplicate_count": int(duplicates)
+        "duplicate_count": int(duplicate_count)
     }
 
 
@@ -93,16 +92,14 @@ def generate_quality_report(data):
     if "ward_id" in data.columns and "ward_name" in data.columns:
         required_columns = ["ward_id", "ward_name"]
 
+    elif "building_id" in data.columns and "building_type" in data.columns:
+        required_columns = ["building_id", "building_type", "building_name"]
+
     elif "road_id" in data.columns and "road_type" in data.columns:
         required_columns = ["road_id", "road_type", "road_name"]
 
     else:
-        required_columns = [
-        "parcel_id",
-        "owner_name",
-        "land_use",
-        "area_sq_m"
-    ]
+        required_columns = ["parcel_id", "owner_name", "land_use", "area_sq_m"]
 
     report["required_columns"] = check_required_columns(
         data,
@@ -113,7 +110,17 @@ def generate_quality_report(data):
     report["missing_values"] = check_missing_values(data)
 
     # Check duplicate parcel IDs
-    report["duplicate_parcel_ids"] = check_duplicate_parcel_ids(data)
+    if "building_id" in data.columns:
+        id_column = "building_id"
+    elif "road_id" in data.columns:
+        id_column = "road_id"
+    elif "parcel_id" in data.columns:
+        id_column = "parcel_id"
+    else:
+        id_column = None
+
+    if id_column:
+        report["duplicate_ids"] = check_duplicate_ids(data, id_column)
 
     # Spatial checks for GeoDataFrame
     if isinstance(data, gpd.GeoDataFrame):
@@ -152,14 +159,16 @@ def print_quality_report(report):
         print("  None")
 
     # Duplicate IDs
-    duplicates = report["duplicate_parcel_ids"]
+    duplicates = report.get("duplicate_ids")
 
-    print("\nDuplicate parcel IDs:")
 
-    if duplicates["checked"]:
-        print(f"  Count: {duplicates['duplicate_count']}")
+    print("\nDuplicate IDs:")
+    if duplicates is None:
+        print("  Not checked")
     else:
-        print(f"  Not checked: {duplicates['reason']}")
+        print(f"  ID column       : {duplicates['id_column']}")
+        print(f"  Checked         : {duplicates['checked']}")
+        print(f"  Duplicate count : {duplicates['duplicate_count']}")
 
     # Geometry
     if "geometry_quality" in report:
