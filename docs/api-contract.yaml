@@ -1,0 +1,771 @@
+openapi: 3.0.3
+
+info:
+  title: SIH PS13 Urban Land Intelligence API
+  description: >
+    API contract for the SIH 2026 PS13 prototype.
+    The system integrates and harmonizes multi-source geospatial
+    land records, detects spatial and attribute conflicts,
+    performs building and change detection, generates AI proposals,
+    and supports human verification.
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8000/api/v1
+    description: Local development server
+
+tags:
+  - name: Parcels
+    description: Parcel and harmonized land records
+  - name: Sources
+    description: Source records associated with parcels
+  - name: Conflicts
+    description: Spatial and attribute conflicts
+  - name: Buildings
+    description: Building detection and parcel association
+  - name: Changes
+    description: Historical change detection
+  - name: Data
+    description: Data ingestion and harmonization
+  - name: Verification
+    description: Human verification and audit
+
+paths:
+
+  /parcels:
+    get:
+      tags:
+        - Parcels
+      summary: Get harmonized parcels
+      parameters:
+        - name: status
+          in: query
+          required: false
+          schema:
+            type: string
+            enum:
+              - VERIFIED
+              - PENDING_REVIEW
+              - CONFLICT
+              - CHANGED
+
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 50
+            maximum: 500
+
+      responses:
+        "200":
+          description: List of harmonized parcels
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count:
+                    type: integer
+                  parcels:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Parcel"
+
+  /parcels/{parcel_id}:
+    get:
+      tags:
+        - Parcels
+      summary: Get parcel details
+      parameters:
+        - $ref: "#/components/parameters/ParcelId"
+      responses:
+        "200":
+          description: Parcel details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Parcel"
+        "404":
+          description: Parcel not found
+
+  /parcels/{parcel_id}/sources:
+    get:
+      tags:
+        - Sources
+      summary: Get source records for a parcel
+      parameters:
+        - $ref: "#/components/parameters/ParcelId"
+      responses:
+        "200":
+          description: Source records
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  parcel_id:
+                    type: string
+                  sources:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/SourceRecord"
+
+  /parcels/{parcel_id}/conflicts:
+    get:
+      tags:
+        - Conflicts
+      summary: Get conflicts for a parcel
+      parameters:
+        - $ref: "#/components/parameters/ParcelId"
+      responses:
+        "200":
+          description: Detected conflicts
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  parcel_id:
+                    type: string
+                  conflicts:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Conflict"
+
+  /parcels/{parcel_id}/buildings:
+    get:
+      tags:
+        - Buildings
+      summary: Get buildings associated with a parcel
+      parameters:
+        - $ref: "#/components/parameters/ParcelId"
+      responses:
+        "200":
+          description: Building records
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  parcel_id:
+                    type: string
+                  buildings:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Building"
+
+  /parcels/{parcel_id}/changes:
+    get:
+      tags:
+        - Changes
+      summary: Get historical changes for a parcel
+      parameters:
+        - $ref: "#/components/parameters/ParcelId"
+      responses:
+        "200":
+          description: Change events
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  parcel_id:
+                    type: string
+                  changes:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/ChangeEvent"
+
+  /ingest:
+    post:
+      tags:
+        - Data
+      summary: Register a source dataset
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IngestRequest"
+      responses:
+        "202":
+          description: Dataset accepted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IngestResponse"
+
+  /harmonize:
+    post:
+      tags:
+        - Data
+      summary: Harmonize source datasets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/HarmonizeRequest"
+      responses:
+        "200":
+          description: Harmonization result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HarmonizeResponse"
+
+  /conflicts/detect:
+    post:
+      tags:
+        - Conflicts
+      summary: Detect spatial and attribute conflicts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - parcel_id
+              properties:
+                parcel_id:
+                  type: string
+                source_ids:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        "200":
+          description: Conflict detection result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  parcel_id:
+                    type: string
+                  conflicts:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Conflict"
+
+  /conflicts/{conflict_id}/resolve:
+    post:
+      tags:
+        - Conflicts
+      summary: Generate AI resolution proposal
+      parameters:
+        - $ref: "#/components/parameters/ConflictId"
+      responses:
+        "200":
+          description: AI proposal
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AIProposal"
+
+  /conflicts/{conflict_id}/decision:
+    post:
+      tags:
+        - Verification
+      summary: Accept, reject or modify AI proposal
+      parameters:
+        - $ref: "#/components/parameters/ConflictId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/HumanDecision"
+      responses:
+        "200":
+          description: Decision recorded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DecisionResponse"
+
+components:
+
+  parameters:
+
+    ParcelId:
+      name: parcel_id
+      in: path
+      required: true
+      schema:
+        type: string
+      example: P001
+
+    ConflictId:
+      name: conflict_id
+      in: path
+      required: true
+      schema:
+        type: string
+      example: CONFLICT-001
+
+  schemas:
+
+    Geometry:
+      type: object
+      required:
+        - type
+        - coordinates
+      properties:
+        type:
+          type: string
+          enum:
+            - Point
+            - Polygon
+            - MultiPolygon
+        coordinates:
+          type: array
+
+    Parcel:
+      type: object
+      required:
+        - parcel_id
+        - geometry
+        - status
+      properties:
+        parcel_id:
+          type: string
+          example: P001
+
+        geometry:
+          $ref: "#/components/schemas/Geometry"
+
+        area_sq_m:
+          type: number
+          format: float
+          example: 1194.2
+
+        attributes:
+          $ref: "#/components/schemas/ParcelAttributes"
+
+        sources:
+          type: array
+          items:
+            $ref: "#/components/schemas/SourceRecord"
+
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+          example: 0.91
+
+        status:
+          type: string
+          enum:
+            - VERIFIED
+            - PENDING_REVIEW
+            - CONFLICT
+            - CHANGED
+
+        last_updated:
+          type: string
+          format: date-time
+
+    ParcelAttributes:
+      type: object
+      properties:
+        land_use:
+          type: string
+          example: Residential
+
+        survey_number:
+          type: string
+          example: SN-102
+
+        property_id:
+          type: string
+          example: PROP-783
+
+        owner_reference:
+          type: string
+          example: OWNER-001
+
+        municipal_zone:
+          type: string
+          example: R2
+
+    SourceRecord:
+      type: object
+      required:
+        - source_type
+        - source_id
+      properties:
+        source_type:
+          type: string
+          enum:
+            - cadastral
+            - municipal
+            - revenue
+            - drone
+            - gnss
+            - satellite
+            - utility
+            - imagery
+            - other
+
+        source_id:
+          type: string
+          example: CAD-001
+
+        source_name:
+          type: string
+          example: Cadastral Dataset
+
+        survey_date:
+          type: string
+          format: date
+
+        source_date:
+          type: string
+          format: date
+
+        crs:
+          type: string
+          example: EPSG:32643
+
+        source_quality:
+          type: number
+          minimum: 0
+          maximum: 1
+
+        reliability_score:
+          type: number
+          minimum: 0
+          maximum: 1
+
+    Conflict:
+      type: object
+      required:
+        - conflict_id
+        - parcel_id
+        - conflict_type
+        - severity
+      properties:
+        conflict_id:
+          type: string
+          example: CONFLICT-001
+
+        parcel_id:
+          type: string
+          example: P001
+
+        conflict_type:
+          type: string
+          enum:
+            - spatial_boundary
+            - area
+            - attribute
+            - topology
+            - coordinate
+            - identity
+
+        severity:
+          type: string
+          enum:
+            - LOW
+            - MEDIUM
+            - HIGH
+
+        description:
+          type: string
+
+        source_ids:
+          type: array
+          items:
+            type: string
+
+        difference_value:
+          type: number
+
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+
+        status:
+          type: string
+          enum:
+            - DETECTED
+            - AI_PROPOSED
+            - ACCEPTED
+            - REJECTED
+            - MODIFIED
+
+    AIProposal:
+      type: object
+      required:
+        - conflict_id
+        - recommendation
+        - confidence
+      properties:
+        conflict_id:
+          type: string
+          example: CONFLICT-001
+
+        recommendation:
+          type: string
+          example: Use GNSS-aligned boundary
+
+        proposed_geometry:
+          $ref: "#/components/schemas/Geometry"
+
+        proposed_attributes:
+          type: object
+
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+          example: 0.87
+
+        explanation:
+          type: array
+          items:
+            type: string
+
+        contributing_sources:
+          type: array
+          items:
+            type: string
+
+    Building:
+      type: object
+      required:
+        - building_id
+        - parcel_id
+      properties:
+        building_id:
+          type: string
+          example: B001
+
+        parcel_id:
+          type: string
+          example: P001
+
+        geometry:
+          $ref: "#/components/schemas/Geometry"
+
+        area_sq_m:
+          type: number
+          example: 146.5
+
+        detection_source:
+          type: string
+          example: imagery_2026
+
+        detection_date:
+          type: string
+          format: date
+
+        detection_confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+
+        record_status:
+          type: string
+          enum:
+            - RECORDED
+            - POTENTIALLY_UNRECORDED
+            - UNKNOWN
+
+        verification_required:
+          type: boolean
+
+    ChangeEvent:
+      type: object
+      required:
+        - change_id
+        - parcel_id
+        - change_type
+      properties:
+        change_id:
+          type: string
+          example: CHANGE-001
+
+        parcel_id:
+          type: string
+          example: P001
+
+        change_type:
+          type: string
+          enum:
+            - new_building
+            - removed_building
+            - building_expansion
+            - parcel_boundary_change
+            - land_use_change
+            - attribute_change
+
+        previous_value:
+          type: object
+
+        current_value:
+          type: object
+
+        detected_on:
+          type: string
+          format: date
+
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+
+        verification_required:
+          type: boolean
+
+    IngestRequest:
+      type: object
+      required:
+        - source_type
+        - source_name
+      properties:
+        source_type:
+          type: string
+
+        source_name:
+          type: string
+
+        file_path:
+          type: string
+
+        file_format:
+          type: string
+          enum:
+            - GeoJSON
+            - Shapefile
+            - GeoPackage
+            - CSV
+            - GeoTIFF
+            - JSON
+
+        crs:
+          type: string
+
+        source_date:
+          type: string
+          format: date
+
+    IngestResponse:
+      type: object
+      properties:
+        dataset_id:
+          type: string
+          example: DATASET-001
+
+        status:
+          type: string
+          enum:
+            - ACCEPTED
+            - PROCESSING
+            - COMPLETED
+            - FAILED
+
+        message:
+          type: string
+
+    HarmonizeRequest:
+      type: object
+      required:
+        - dataset_ids
+      properties:
+        dataset_ids:
+          type: array
+          items:
+            type: string
+
+        target_crs:
+          type: string
+          example: EPSG:32643
+
+        spatial_match_threshold:
+          type: number
+          minimum: 0
+          maximum: 1
+          example: 0.75
+
+        attribute_mapping:
+          type: object
+
+    HarmonizeResponse:
+      type: object
+      properties:
+        job_id:
+          type: string
+          example: HARM-001
+
+        status:
+          type: string
+          enum:
+            - STARTED
+            - PROCESSING
+            - COMPLETED
+            - FAILED
+
+        parcel_count:
+          type: integer
+
+        conflict_count:
+          type: integer
+
+    HumanDecision:
+      type: object
+      required:
+        - decision
+        - reviewer_id
+      properties:
+        decision:
+          type: string
+          enum:
+            - ACCEPT
+            - REJECT
+            - MODIFY
+
+        reviewer_id:
+          type: string
+          example: OFFICER-001
+
+        modified_geometry:
+          $ref: "#/components/schemas/Geometry"
+
+        modified_attributes:
+          type: object
+
+        remarks:
+          type: string
+
+    DecisionResponse:
+      type: object
+      properties:
+        conflict_id:
+          type: string
+
+        decision:
+          type: string
+
+        final_status:
+          type: string
+          enum:
+            - VERIFIED
+            - REJECTED
+            - MODIFIED
+            - PENDING_REVIEW
+
+        audit_id:
+          type: string
+          example: AUDIT-001
+
+        timestamp:
+          type: string
+          format: date-time
+
+        message:
+          type: string
