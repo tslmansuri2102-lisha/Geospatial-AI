@@ -89,7 +89,9 @@ def generate_quality_report(data):
     report = {}
 
     # Check required attributes
-    if "ward_id" in data.columns and "ward_name" in data.columns:
+    if "facility_id" in data.columns and "facility_type" in data.columns:
+        required_columns = ["facility_id", "facility_name", "facility_type"]
+    elif "ward_id" in data.columns and "ward_name" in data.columns:
         required_columns = ["ward_id", "ward_name"]
 
     elif "building_id" in data.columns and "building_type" in data.columns:
@@ -110,7 +112,9 @@ def generate_quality_report(data):
     report["missing_values"] = check_missing_values(data)
 
     # Check duplicate parcel IDs
-    if "building_id" in data.columns:
+    if "facility_id" in data.columns:
+        id_column = "facility_id"
+    elif "building_id" in data.columns:
         id_column = "building_id"
     elif "road_id" in data.columns:
         id_column = "road_id"

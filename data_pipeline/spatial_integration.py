@@ -106,3 +106,30 @@ def assign_buildings_to_wards(buildings, wards):
     )
 
     return result
+def assign_facilities_to_wards(facilities, wards):
+    """
+    Assign each municipal facility to the ward
+    containing its location.
+    """
+
+    facilities = facilities.copy()
+    wards = wards.copy()
+
+    wards = wards[["ward_id", "ward_name", "geometry"]]
+
+    # Make sure both datasets use the same CRS
+    if facilities.crs != wards.crs:
+        facilities = facilities.to_crs(wards.crs)
+
+    result = gpd.sjoin(
+        facilities,
+        wards,
+        how="left",
+        predicate="within"
+    )
+
+    # Remove spatial join helper column if present
+    if "index_right" in result.columns:
+        result = result.drop(columns=["index_right"])
+
+    return result
