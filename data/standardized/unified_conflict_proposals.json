@@ -1,0 +1,2529 @@
+[
+  {
+    "building_id": "way/843003285",
+    "source_parcel_id": "9",
+    "source_parcel_ids": "9|69",
+    "inferred_parcel_id": "9",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6629,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.438",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/843003299",
+    "source_parcel_id": "75",
+    "source_parcel_ids": "75",
+    "inferred_parcel_id": "75",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7841,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.640",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/843003315",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7014,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.502",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/843003323",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8456,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.743",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528782",
+    "source_parcel_id": "95",
+    "source_parcel_ids": "95|112",
+    "inferred_parcel_id": "112",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.9681,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.947",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528784",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7042,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.507",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528785",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.704,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.507",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528786",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.761,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.602",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528787",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7932,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.655",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528788",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7598,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.600",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528789",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7051,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.508",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528790",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8|7",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7034,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.506",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528791",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8|90",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6957,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.493",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528792",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7244,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.541",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528793",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7778,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.630",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528794",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8|90",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7469,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.578",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528795",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7045,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.507",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528796",
+    "source_parcel_id": "8",
+    "source_parcel_ids": "8",
+    "inferred_parcel_id": "8",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.705,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.508",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528797",
+    "source_parcel_id": "96",
+    "source_parcel_ids": "96",
+    "inferred_parcel_id": "96",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8479,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.747",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528798",
+    "source_parcel_id": "96",
+    "source_parcel_ids": "96",
+    "inferred_parcel_id": "96",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8421,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.737",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528799",
+    "source_parcel_id": "96",
+    "source_parcel_ids": "96",
+    "inferred_parcel_id": "96",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8653,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.775",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528800",
+    "source_parcel_id": "95",
+    "source_parcel_ids": "95",
+    "inferred_parcel_id": "95",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8489,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.748",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528801",
+    "source_parcel_id": "95",
+    "source_parcel_ids": "95",
+    "inferred_parcel_id": "95",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8512,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.752",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528802",
+    "source_parcel_id": "95",
+    "source_parcel_ids": "95",
+    "inferred_parcel_id": "95",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8204,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.701",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1072528803",
+    "source_parcel_id": "95",
+    "source_parcel_ids": "95",
+    "inferred_parcel_id": "95",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8389,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.732",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558008",
+    "source_parcel_id": "53",
+    "source_parcel_ids": "53",
+    "inferred_parcel_id": "53",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8272,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.712",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558009",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558010",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558011",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558012",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558013",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558014",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558015",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558016",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558017",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7363,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.560",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558018",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8031,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.672",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558019",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8598,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.766",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558020",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558021",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7032,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.505",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558022",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7024,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.504",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558023",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7024,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.504",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558024",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7024,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.504",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558025",
+    "source_parcel_id": "137",
+    "source_parcel_ids": "137",
+    "inferred_parcel_id": "137",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7068,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.511",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558026",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7499,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.583",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558027",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7885,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.647",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558028",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7873,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.645",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558029",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7853,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.642",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558030",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7445,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.574",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558031",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7193,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.532",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558032",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.704,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.507",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558033",
+    "source_parcel_id": "49",
+    "source_parcel_ids": "49",
+    "inferred_parcel_id": "49",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7214,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.536",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558034",
+    "source_parcel_id": "15",
+    "source_parcel_ids": "15",
+    "inferred_parcel_id": "15",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7671,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.612",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558035",
+    "source_parcel_id": "64",
+    "source_parcel_ids": "64",
+    "inferred_parcel_id": "64",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.704,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.507",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558036",
+    "source_parcel_id": "64",
+    "source_parcel_ids": "64",
+    "inferred_parcel_id": "64",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7182,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.530",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558037",
+    "source_parcel_id": "64",
+    "source_parcel_ids": "64",
+    "inferred_parcel_id": "64",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7636,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.606",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558038",
+    "source_parcel_id": "64",
+    "source_parcel_ids": "64",
+    "inferred_parcel_id": "64",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7731,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.622",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558039",
+    "source_parcel_id": "64",
+    "source_parcel_ids": "64",
+    "inferred_parcel_id": "64",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7341,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.557",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558040",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7208,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.535",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558041",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7463,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.577",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558042",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7404,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.567",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558043",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1|72",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6704,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.451",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558044",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1|72",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7362,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.560",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558045",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94|74/1|72|132",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6386,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.398",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558046",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7614,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.602",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558047",
+    "source_parcel_id": "74/1",
+    "source_parcel_ids": "74/1",
+    "inferred_parcel_id": "74/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7047,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.508",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558048",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7899,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.650",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558049",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7959,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.660",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558050",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7814,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.636",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558051",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7834,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.639",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558052",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8189,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.698",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558053",
+    "source_parcel_id": "94",
+    "source_parcel_ids": "94",
+    "inferred_parcel_id": "94",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8078,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.680",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558054",
+    "source_parcel_id": "75",
+    "source_parcel_ids": "75",
+    "inferred_parcel_id": "75",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8236,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.706",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558055",
+    "source_parcel_id": "78",
+    "source_parcel_ids": "78|76",
+    "inferred_parcel_id": "76",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7749,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.625",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558056",
+    "source_parcel_id": "78",
+    "source_parcel_ids": "78|76",
+    "inferred_parcel_id": "76",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8222,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.704",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558057",
+    "source_parcel_id": "78",
+    "source_parcel_ids": "78|76",
+    "inferred_parcel_id": "76",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7665,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.611",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558058",
+    "source_parcel_id": "78",
+    "source_parcel_ids": "78",
+    "inferred_parcel_id": "78",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8222,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.704",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558059",
+    "source_parcel_id": "78",
+    "source_parcel_ids": "78",
+    "inferred_parcel_id": "78",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8234,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.706",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1341558060",
+    "source_parcel_id": "79/1",
+    "source_parcel_ids": "79/1",
+    "inferred_parcel_id": "79/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8306,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.718",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361362",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1|119",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6543,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.424",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361363",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7034,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.506",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361364",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7034,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.506",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361365",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7554,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.592",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361366",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8053,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.675",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361367",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8033,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.672",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361368",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7534,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.589",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361369",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7034,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.506",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361370",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1|119",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6596,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.433",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361371",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1|120|119",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6875,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.479",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361372",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1|120",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6961,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.493",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374361373",
+    "source_parcel_id": "24/1",
+    "source_parcel_ids": "24/1|120",
+    "inferred_parcel_id": "24/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7075,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.512",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363244",
+    "source_parcel_id": "23",
+    "source_parcel_ids": "23|22",
+    "inferred_parcel_id": "23",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6791,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.465",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363245",
+    "source_parcel_id": "23",
+    "source_parcel_ids": "23",
+    "inferred_parcel_id": "23",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.808,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.680",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363246",
+    "source_parcel_id": "23",
+    "source_parcel_ids": "23|22",
+    "inferred_parcel_id": "23",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.727,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.545",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363247",
+    "source_parcel_id": "23",
+    "source_parcel_ids": "23|24/1",
+    "inferred_parcel_id": "23",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8127,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.688",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363248",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1|29",
+    "inferred_parcel_id": "29",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7831,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.638",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363249",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7172,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.529",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363250",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7836,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.639",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363251",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.746,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.577",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363252",
+    "source_parcel_id": "30",
+    "source_parcel_ids": "30|32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6758,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.460",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363253",
+    "source_parcel_id": "135",
+    "source_parcel_ids": "135|30|33",
+    "inferred_parcel_id": "30",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.777,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.628",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363254",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1|29",
+    "inferred_parcel_id": "29",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8459,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.743",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363255",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7655,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.609",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363256",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8261,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.710",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363257",
+    "source_parcel_id": "32/1",
+    "source_parcel_ids": "32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8066,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.678",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363258",
+    "source_parcel_id": "30",
+    "source_parcel_ids": "30|32/1",
+    "inferred_parcel_id": "32/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7353,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.559",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363259",
+    "source_parcel_id": "135",
+    "source_parcel_ids": "135|30",
+    "inferred_parcel_id": "30",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8649,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.775",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363260",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60|32/1",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6523,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.420",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363261",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8114,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.686",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363262",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7955,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.659",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363263",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60|32/1",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6316,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.386",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363264",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.795,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.658",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363265",
+    "source_parcel_id": "60",
+    "source_parcel_ids": "60|133",
+    "inferred_parcel_id": "60",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7963,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.660",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363266",
+    "source_parcel_id": "39/2",
+    "source_parcel_ids": "39/2",
+    "inferred_parcel_id": "39/2",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7694,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.616",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363267",
+    "source_parcel_id": "39/2",
+    "source_parcel_ids": "39/2",
+    "inferred_parcel_id": "39/2",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8512,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.752",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363268",
+    "source_parcel_id": "39/2",
+    "source_parcel_ids": "39/2",
+    "inferred_parcel_id": "39/2",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7842,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.640",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363269",
+    "source_parcel_id": "39/2",
+    "source_parcel_ids": "39/2|136",
+    "inferred_parcel_id": "39/2",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6723,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.454",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363270",
+    "source_parcel_id": "39/2",
+    "source_parcel_ids": "39/2",
+    "inferred_parcel_id": "39/2",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7972,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.662",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363271",
+    "source_parcel_id": "36/1",
+    "source_parcel_ids": "36/1",
+    "inferred_parcel_id": "36/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8399,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.733",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363272",
+    "source_parcel_id": "36/1",
+    "source_parcel_ids": "36/1",
+    "inferred_parcel_id": "36/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.8601,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.767",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374363273",
+    "source_parcel_id": "36/1",
+    "source_parcel_ids": "36/1|136",
+    "inferred_parcel_id": "36/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6361,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.394",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365097",
+    "source_parcel_id": "44",
+    "source_parcel_ids": "44|43",
+    "inferred_parcel_id": "44",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6813,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.469",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365098",
+    "source_parcel_id": "44",
+    "source_parcel_ids": "44|43",
+    "inferred_parcel_id": "44",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6816,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.469",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365099",
+    "source_parcel_id": "44",
+    "source_parcel_ids": "44",
+    "inferred_parcel_id": "44",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7938,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.656",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365100",
+    "source_parcel_id": "44",
+    "source_parcel_ids": "44",
+    "inferred_parcel_id": "44",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.805,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.675",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365101",
+    "source_parcel_id": "44",
+    "source_parcel_ids": "44",
+    "inferred_parcel_id": "44",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.848,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.747",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365102",
+    "source_parcel_id": "43",
+    "source_parcel_ids": "43|39/1",
+    "inferred_parcel_id": "43",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6014,
+    "resolution": "WEAK_MATCH",
+    "reason": [
+      "Spatial evidence for the inferred parcel is weak",
+      "Spatial score is 0.336",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365103",
+    "source_parcel_id": "73/1",
+    "source_parcel_ids": "73/1|67+70+71",
+    "inferred_parcel_id": "67+70+71",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6537,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.423",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365104",
+    "source_parcel_id": "73/1",
+    "source_parcel_ids": "73/1|67+70+71",
+    "inferred_parcel_id": "67+70+71",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6667,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.445",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365105",
+    "source_parcel_id": "72",
+    "source_parcel_ids": "72|73/1",
+    "inferred_parcel_id": "72",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7388,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.565",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365106",
+    "source_parcel_id": "72",
+    "source_parcel_ids": "72|73/1",
+    "inferred_parcel_id": "72",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7946,
+    "resolution": "CONSISTENT",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.658",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365107",
+    "source_parcel_id": "72",
+    "source_parcel_ids": "72|73/1",
+    "inferred_parcel_id": "72",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.7294,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.549",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365108",
+    "source_parcel_id": "72",
+    "source_parcel_ids": "72|132|73/1",
+    "inferred_parcel_id": "72",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6722,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.454",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  },
+  {
+    "building_id": "way/1374365109",
+    "source_parcel_id": "73/1",
+    "source_parcel_ids": "73/1|67+70+71",
+    "inferred_parcel_id": "73/1",
+    "proposed_area": null,
+    "preferred_geometry": "unresolved",
+    "confidence": 0.6269,
+    "resolution": "CONSISTENT_LOW_CONFIDENCE",
+    "reason": [
+      "Spatially inferred parcel agrees with the building's source parcel relationship",
+      "Spatial score is 0.378",
+      "Source status is 'verified'",
+      "Source type is 'CTPVD_Final_Plot'",
+      "Recency unavailable because survey date is not provided",
+      "GNSS/ground-truth agreement unavailable in current dataset",
+      "Historical consistency unavailable in current dataset"
+    ]
+  }
+]
