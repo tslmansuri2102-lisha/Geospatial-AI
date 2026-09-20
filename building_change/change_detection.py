@@ -76,3 +76,107 @@ def build_change_explanation(change_type, confidence):
         ),
         "confidence": confidence,
     }
+import json
+from pathlib import Path
+
+
+def load_building_snapshot(geojson_path):
+    """Load a GeoJSON building snapshot indexed by building ID."""
+    with Path(geojson_path).open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    buildings = {}
+
+    for feature in data.get("features", []):
+        properties = feature.get("properties") or {}
+
+        building_id = (
+            properties.get("building_id")
+            or properties.get("id")
+            or properties.get("@id")
+        )
+
+        if not building_id:
+            continue
+
+        if building_id not in buildings:
+            buildings[building_id] = {
+                "building_id": building_id,
+                "parcel_ids": [],
+                "area_sq_m": properties.get("area_sq_m"),
+                "detection_source": properties.get(
+                    "detection_source",
+                    "OSM",
+                ),
+                "detection_date": properties.get("detection_date"),
+            }
+
+        parcel_id = properties.get("parcel_id")
+
+        if parcel_id and parcel_id not in buildings[building_id]["parcel_ids"]:
+            buildings[building_id]["parcel_ids"].append(parcel_id)
+
+    return buildings
+def compare_building_snapshots(previous_buildings, current_buildings):
+    """Compare two building snapshots and return detected changes."""
+    new_ids, removed_ids = detect_new_removed_buildings(
+        previous_buildings,
+        current_buildings,
+    )
+
+    expansions = detect_building_expansions(
+        previous_buildings,
+        current_buildings,
+    )
+
+    return {
+        "new_buildings": new_ids,
+        "removed_buildings": removed_ids,
+        "building_expansions": expansions,
+    }
+def build_change_events(comparison_result, building_parcel_relations, confidence=0.90):
+    """Convert detected building changes into ChangeEvent-compatible records."""
+    events = []
+
+    for building_id in comparison_result["new_buildings"]:
+        for parcel_id in building_parcel_relations.get(building_id, []):
+            events.append(
+                create_change_event(
+                    change_id=f"new-{building_id}-{parcel_id}",
+                    parcel_id=parcel_id,
+                    change_type="new_building",
+                    previous_value=None,
+                    current_value=building_id,
+                    confidence=confidence,
+                )
+            )
+
+    for building_id in comparison_result["removed_buildings"]:
+        for parcel_id in building_parcel_relations.get(building_id, []):
+            events.append(
+                create_change_event(
+                    change_id=f"removed-{building_id}-{parcel_id}",
+                    parcel_id=parcel_id,
+                    change_type="removed_building",
+                    previous_value=building_id,
+                    current_value=None,
+                    confidence=confidence,
+                )
+            )
+
+    for expansion in comparison_result["building_expansions"]:
+        building_id = expansion["building_id"]
+
+        for parcel_id in building_parcel_relations.get(building_id, []):
+            events.append(
+                create_change_event(
+                    change_id=f"expansion-{building_id}-{parcel_id}",
+                    parcel_id=parcel_id,
+                    change_type="building_expansion",
+                    previous_value=expansion["previous_area_sq_m"],
+                    current_value=expansion["current_area_sq_m"],
+                    confidence=confidence,
+                )
+            )
+
+    return events
