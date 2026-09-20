@@ -1,0 +1,5 @@
+source_type,source_id,parcel_id,survey_number,source_area_sq_m,relationship_type,verification_status
+e-Milkat,GJ113937545523,14,,121.41,property_within_final_plot,verified_reference
+e-Milkat,GJ113941653593,34,090036,37.68,property_within_final_plot,verified_reference
+CTPVD,14,14,,3339.0,final_plot,authoritative
+CTPVD,34,34,212/1+213/1,5149.0,final_plot,authoritative
