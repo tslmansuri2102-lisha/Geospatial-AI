@@ -270,36 +270,33 @@ def calculate_spatial_score(metrics):
     Transparent spatial evidence score.
 
     Components:
+        50% building coverage
+        20% parcel coverage
+        30% centroid-distance score
 
-        35% building coverage
-        25% parcel coverage
-        20% IoU
-        20% centroid-distance score
+    IoU is retained as a diagnostic metric but is not included in
+    the score because it is strongly redundant with parcel coverage
+    for the current dataset.
 
     Result is bounded to [0, 1].
     """
 
     parcel_coverage = metrics["parcel_coverage"]
     building_coverage = metrics["building_coverage"]
-    iou = metrics["iou"]
     distance = metrics["centroid_distance_m"]
 
     if distance is None:
-
         distance_score = 0.0
-
     else:
-
         distance_score = max(
             0.0,
             1.0 - (distance / 50.0)
         )
 
     score = (
-        0.35 * building_coverage
-        + 0.25 * parcel_coverage
-        + 0.20 * iou
-        + 0.20 * distance_score
+        0.50 * building_coverage
+        + 0.20 * parcel_coverage
+        + 0.30 * distance_score
     )
 
     return max(
